@@ -1,3 +1,5 @@
 (ns julia-set.core)
 
-(.log js/console "Hello world!")
+(enable-console-print!)
+
+(println "Hello, world!")
